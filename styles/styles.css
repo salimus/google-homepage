@@ -144,6 +144,47 @@ a:visited {
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
+.search_btns {
+	padding-top: 20px;
+	display: block;
+    text-align: -webkit-center;
+}
+
+#google_search, #ifl {
+	height: 36px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 1.5px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    outline: none;
+}
+
+#google_search:hover, #ifl:hover {
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
 
 
 
